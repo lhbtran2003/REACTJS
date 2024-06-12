@@ -1,0 +1,36 @@
+#top {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 50px;
+    width: 200px;
+    text-align: right;
+} 
+#top span {
+    margin-right: 5px;
+}
+#top p {
+    margin-right: 5px;
+}
+
+#bottom {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 50px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.bottom_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    border: blue;
+    border-radius: 5px;
+    color: white;
+    background-color: lightblue; 
+}
